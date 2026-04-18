@@ -474,13 +474,13 @@ Milvus is optional. The questionnaire and chat work without it. RAG activates on
 
 # How We Used Claude
 
-We used two models throughout the build: **Claude Sonnet 3.5** for speed-sensitive tasks and iteration, and **Claude Opus 4.7** for the deep reasoning work that required genuine psychological nuance.
+We used two models throughout the build: **Claude Sonnet 4.5** for speed-sensitive tasks and iteration, and **Claude Opus 4.7** for the deep reasoning work that required genuine psychological nuance.
 
 ---
 
 ## Claude as Prompt Engineer
 
-The prompts that power Faculty — the entity extraction schema, the archetype matching logic, the six faculty voice instructions — were themselves designed in conversation with Claude. We described the psychological outcome we wanted and iterated on the system prompts until the output felt like a real mentor rather than a generic assistant. Claude helped us identify where prompts were leaking tone across voices, and where the JSON schema was too rigid to capture the range of human answers.
+The prompts that power The Latent Map — the entity extraction schema, the archetype matching logic, the six faculty voice instructions — were themselves designed in conversation with Claude. We described the psychological outcome we wanted and iterated on the system prompts until the output felt like a real mentor rather than a generic assistant. Claude helped us identify where prompts were leaking tone across voices, and where the JSON schema was too rigid to capture the range of human answers.
 
 ## Claude as Architect
 
@@ -488,7 +488,7 @@ When we hit structural decisions — how to design the blackboard session state,
 
 ## Claude as the Runtime Intelligence
 
-In the live application, Claude Sonnet 3.5 handles the agentic pipeline: entity extraction, archetype matching, portrait personalization, graph generation, and counselor brief. Every faculty voice response — The Socratic, The Pragmatist, The Mirror and the rest — is a Claude Sonnet call with a distinct system prompt. The RAG chatbot falls back to Claude when Milvus is unavailable.
+In the live application, Claude Sonnet 4.5 handles the agentic pipeline: entity extraction, archetype matching, portrait personalization, graph generation, and counselor brief. Every faculty voice response — The Socratic, The Pragmatist, The Mirror and the rest — is a Claude Sonnet call with a distinct system prompt. The RAG chatbot falls back to Claude when Milvus is unavailable.
 
 ## Claude as Debugging Partner
 
