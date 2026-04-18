@@ -27,9 +27,13 @@ Most people never discover what they are actually built for. Not because they la
 
 A brilliant mentor asks the question under the question. They see the pattern you cannot see in yourself. They hold up a mirror that does not flatter.
 
-**Faculty gives everyone that mentor.** A psychologically grounded, deeply personalized AI system that interviews you, maps your unlived life, identifies your archetype, and connects you to a counselor and a research base that can actually help.
+**Latent Map, our solution gives everyone that mentor.** A psychologically grounded, deeply personalized AI system that interviews you, maps your unlived life, identifies your archetype, and connects you to a counselor and a research base that can actually help.
 
-This is not a personality quiz. This is not a chatbot. It is a system designed to do one thing: help people understand themselves in a way they have not before — and then do something about it.
+Remember, this is not a personality quiz, nor is it a not a chatbot. It is a system designed to do one thing: help people understand themselves in a way they have not before — and then do something about it.
+---
+
+## Why we came to work on this
+We wondered about what we had missed, and why did we miss it. We realized that there is no module of such in the market which helps us realize what we were. This was our driving goal, something completely new, something supporting creativity, and something personal
 
 ---
 
