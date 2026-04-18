@@ -11,6 +11,9 @@ Masters in Artificial Intelligence Engineering — Biomedical Engineering, Carne
 
 Google Drive Link to the demo video: https://drive.google.com/file/d/1J3CwH_R8HaT_TTFVMChV4EAe5dPpBXzN/view
 
+<img width="941" height="711" alt="image" src="https://github.com/user-attachments/assets/9ebb4d08-590f-4485-99d9-952ef4cbb45f" />
+
+
 
 ---
 
