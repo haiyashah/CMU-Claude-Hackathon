@@ -9,6 +9,9 @@ Theme: Creative Flourishing
 **Team:** Devavrath Sandeep and Haiya Niraj Shah
 Masters in Artificial Intelligence Engineering — Biomedical Engineering, Carnegie Mellon University
 
+Google Drive Link to the demo video: https://drive.google.com/file/d/1J3CwH_R8HaT_TTFVMChV4EAe5dPpBXzN/view
+
+
 ---
 
 ## What Is This
