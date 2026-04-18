@@ -472,6 +472,32 @@ Milvus is optional. The questionnaire and chat work without it. RAG activates on
 
 ---
 
+# How We Used Claude
+
+We used two models throughout the build: **Claude Sonnet 3.5** for speed-sensitive tasks and iteration, and **Claude Opus 4.7** for the deep reasoning work that required genuine psychological nuance.
+
+---
+
+## Claude as Prompt Engineer
+
+The prompts that power Faculty — the entity extraction schema, the archetype matching logic, the six faculty voice instructions — were themselves designed in conversation with Claude. We described the psychological outcome we wanted and iterated on the system prompts until the output felt like a real mentor rather than a generic assistant. Claude helped us identify where prompts were leaking tone across voices, and where the JSON schema was too rigid to capture the range of human answers.
+
+## Claude as Architect
+
+When we hit structural decisions — how to design the blackboard session state, how to sequence the 5-step pipeline without downstream failures, how to handle RAG fallback gracefully — we talked them through with Claude before writing any code. The multi-agent architecture documented in the README came directly out of those conversations.
+
+## Claude as the Runtime Intelligence
+
+In the live application, Claude Sonnet 3.5 handles the agentic pipeline: entity extraction, archetype matching, portrait personalization, graph generation, and counselor brief. Every faculty voice response — The Socratic, The Pragmatist, The Mirror and the rest — is a Claude Sonnet call with a distinct system prompt. The RAG chatbot falls back to Claude when Milvus is unavailable.
+
+## Claude as Debugging Partner
+
+When the D3 graph broke, when JSON responses came back malformed, when a faculty voice started sounding like another — we debugged with Claude. It caught a schema mismatch in the graph generation step that would have taken us an hour to find manually.
+
+In short: Claude was the co-builder, not just the API.
+
+---
+
 ## The Bigger Picture
 
 The question Faculty is trying to answer is not *"what personality type are you?"*
