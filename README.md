@@ -33,7 +33,9 @@ Remember, this is not a personality quiz, nor is it a not a chatbot. It is a sys
 ---
 
 ## Why we came to work on this
-We wondered about what we had missed, and why did we miss it. We realized that there is no module of such in the market which helps us realize what we were. This was our driving goal, something completely new, something supporting creativity, and something personal
+- We wondered about what we had missed as we grew up, what were the hobbies and dreams we stopped chasing, and why did we stop them. 
+- We realized that there is no module of such in the market which helps us realize what we were.
+- This was our driving goal, something completely new, something supporting creativity, and something personal
 
 ---
 
