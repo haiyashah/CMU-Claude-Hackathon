@@ -3,6 +3,10 @@
 > *"The bottleneck to human flourishing is not intelligence. It is access to the right guide at the right moment."*
 > Inspired by Dario Amodei, *Machines of Loving Grace*
 
+**Every Response, Every Sentence, Every Paragraph is Personalised to Each Individual's Response**
+
+*We have also integrated a WebScraper, which finds out every publicly available information about You.*
+
 **Built at CMU x Anthropic Claude Builder Club Hackathon, April 2026**
 Theme: Creative Flourishing
 
